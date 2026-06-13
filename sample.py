@@ -33,7 +33,7 @@ class Student:
     
     @classmethod
     def from_dict(cls, data: Dict) -> 'Student':
-        """Create student object from dictionary asdad hello1"""
+        """Create student object from dictionary asdad hello67"""
         student = cls(
             data['student_id'],
             data['name'],
